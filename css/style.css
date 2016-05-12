@@ -1,0 +1,146 @@
+/*-- style reset.css --*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic); 
+/*-- style main.css --*/
+html, body{
+	height:100%;
+}
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#pmOverlay{
+	left:1047px!important;
+}
+.wrap{
+	min-height:100%;
+	background: #000;
+}
+/*-- box main --*/
+.main{
+    margin: 0 auto;
+    width: 1234px;
+}
+
+/*-- style style.css --*/
+.header{
+	height:1216px;
+	position: relative;
+	text-align: center;
+	background:url(../img/header-fon.jpg) center 0 no-repeat;
+}
+h1{
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	top: 375px;
+	font-size: 49px;
+	letter-spacing: 0.015em;
+	line-height: 59px;
+    font-weight:700;
+}
+.block-sales{
+	position: absolute;
+	width: auto;
+	top: 787px;
+	left: 161px;
+}
+.block-sales .item{
+	width:274px;
+	height:356px;
+	background:url(../img/circle.png) 0 0 no-repeat;
+	color:#000;
+	display:inline-block;
+	margin: 0 4px 0 0;
+	position: relative;
+}
+.block-sales span{
+	display: block;
+	width: 100%;
+	text-align: center;
+
+	position: absolute;
+	top: 176px;
+	font-size: 52px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.block-sales .lins span{
+	top: 152px;
+	font-size: 34px;
+	line-height: 44px;
+}
+.container{
+	background: url(http://club-sale.ru/img/sale_tmp/fon.jpg) center -557px repeat-y;
+}
+.container .item{
+	min-height:500px;
+	padding-bottom:300px;
+	position: relative;
+
+}
+.text * {font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;}
+.text{
+	color: #DDD;
+	padding: 15px;
+	line-height: 1.3em;
+}
+.text h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #FFDD00;
+	font-weight: 700;
+	width: 60%;
+}
+.text b {
+	color:#FFDD00;
+}
+.text ul,ol {
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+.text ol li {
+	list-style: lower-latin;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.text p {
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+.text strong i,.text strong {
+	font-weight: 700 ;
+	padding-top: 10px;
+	display: inline-block;
+}
+.text i {
+	font-style: italic;
+}
+.container .item:after{
+	content:"";
+	position: absolute;
+	height:245px;
+	width:100%;
+	left:0;
+	bottom:0px;
+	background:url(../img/lines.png) center 0 no-repeat;
+}
+
+/*****************For Frame ********************/
+.ex-Wrapper {background:url(../img/fon.jpg) center -557px repeat-y;}
+.is-flocktory {display:none;}
+.navbar {background:rgba(0,0,0,0.5);color:#fff;}
+.Button--action {
+color: #fff;
+background: #ffde16;
+-webkit-box-shadow: 0 3px 0 0 #aea927;
+box-shadow: 0 3px 0 0 #aeae27;
+text-shadow: 0 1px 1px rgba(39, 174, 96, 0.36);
+}
+.ex-Offer-saleText {background: #ffde16;}
+.ex-Footer {display:none}
+.uc-button-flat-emerland { background: #ffde16; }
+.ex-Offer-more {color:#aeae27}
